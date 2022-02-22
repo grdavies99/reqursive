@@ -1,0 +1,15 @@
+.BgImage{
+    background-image: url('../public/pexels-cadeau-maestro-1170412.jpg');
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    background-color: rgba(255, 255, 255, .8);
+    padding: 1em;
+    text-align: center;
+}
