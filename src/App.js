@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import BGImageContainer from './BGImageContainer';
+import Header from './Header';
 
 const displayEmojiName = event => alert(event.target.id);
 const emojis = [
@@ -18,25 +19,13 @@ const emojis = [
   }
 ];
 
-function Header(props){
-  return(
-        <nav>
-            <h1 id={props.greeting}>{props.title}</h1>
-            <ul>
-                <li>Products</li>
-                <li>Support</li>
-                <li>About</li>
-            </ul>
-        </nav>
-  );
-}
+
 
 function App() {
-  const greeting = "greeting";
   const displayAction = false;
   return(
     <div className="container">
-      <Header greeting={greeting} title="Reqursive"/>
+      <Header />
       {displayAction && <p></p>}
       <BGImageContainer />
       <ul>

@@ -5,7 +5,7 @@ export default class BGImageContainer extends Component {
     render(){
         return(
             <div class="BgImage">
-                <h3>It cost's businesses $30,000 to replace an employee that makes the national median salary,<br/> its time to fix that with Reqursive</h3>
+                <h3>Your business has enough problems, don't let turnover be one of them.</h3>
             </div>
         );
     }
