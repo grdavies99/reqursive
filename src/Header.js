@@ -6,10 +6,10 @@ export default class Header extends Component{
     render(){
         return(
           <nav>
-              <h1>Reqursive</h1>
+              <h1><a href="/">Reqursive</a></h1>
               <ul>
-                  <li>Products</li>
-                  <li>Support</li>
+                  <li><a href="/product">Products</a></li>
+                  <li><a href="/support">Support</a></li>
                   <li><a href="/about">About</a></li>
                   
               </ul>

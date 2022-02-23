@@ -1,4 +1,4 @@
-.container {
+.my-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,7 +7,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items:baseline;
-    position:absolute;
+    position:static;
     background-color: white;
     width: 100%;
     padding-left: 3em;
@@ -15,7 +15,6 @@ nav {
 form{
     display:none;
     flex-direction: column;
-    /* width: 50%; */
 }
 
 button {
@@ -40,4 +39,8 @@ li {
 .offset{
     margin-top: 3.5em;
     width: 50%;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
